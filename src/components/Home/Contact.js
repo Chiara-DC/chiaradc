@@ -1,7 +1,5 @@
 import styles from "../../styles/Home.module.css";
 import data from "../../data/data.json";
-import linkedin from "../../../public/images/icons/Linkedin.svg";
-import email from "../../../public/images/icons/Email.svg";
 // import phone from "../../../public/images/icons/Phone.svg";
 
 export default function Contact() {
@@ -10,7 +8,7 @@ export default function Contact() {
       <p id="contact">Contact </p>
       <div className={styles.contacttype}>
         <img
-          src={linkedin}
+          src="/images/icons/Linkedin.svg"
           height={28}
           title={data.contact.linkedin}
           alt={data.contact.linkedin}
@@ -20,7 +18,7 @@ export default function Contact() {
       <br />
       <div className={styles.contacttype}>
         <img
-          src={email}
+          src="/images/icons/Email.svg"
           height={28}
           title={data.contact.email}
           alt={data.contact.email}
