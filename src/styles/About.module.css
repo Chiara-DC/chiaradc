@@ -1,0 +1,142 @@
+.about {
+  background-color: #feb729;
+}
+
+.introbox {
+  background-color: #feb729;
+  color: black;
+  padding: 5px;
+  vertical-align: top;
+  display: inline-block;
+  width: 70%;
+  min-height: 100vh;
+}
+
+.image {
+  padding: 5px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 30%;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 40px;
+  display: inline-block;
+  width: 50%;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+.text {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-top: 20px;
+}
+
+.paragraph {
+  font-size: 14px;
+  display: inline-block;
+  margin: 20px;
+  width: 80%;
+}
+
+.column {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  min-height: 100vh;
+  background: #a8b1b8;
+  padding-bottom: 20px;
+}
+
+.timeline {
+  background: #a8b1b8;
+  padding-bottom: 20px;
+}
+
+.timelinetitle {
+  font-size: 32px;
+  display: inline-block;
+  width: 50%;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.timelinebox {
+  padding-top: 25px;
+  color: black;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.timelineimage {
+  padding: 5px;
+  padding-top: 25px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  margin: 5px;
+}
+
+.timelinetext {
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 60%;
+}
+
+.skilltext {
+  font-size: 14px;
+  display: inline-block;
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    background-color: #a8b1b8;
+  }
+
+  .introbox {
+    background-color: #feb729;
+    color: black;
+    padding: 5px;
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .image {
+    vertical-align: middle;
+    width: 30%;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: xx-large;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin: 5%;
+    margin-left: 0px;
+  }
+
+  .column {
+    background-color: #a8b1b8;
+    color: black;
+    font-size: larger;
+    width: 100%;
+  }
+
+  .timelinebox {
+    padding-top: 25px;
+    color: black;
+    padding: 5px;
+    width: 100%;
+    vertical-align: top;
+  }
+}

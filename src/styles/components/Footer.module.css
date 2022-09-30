@@ -1,0 +1,17 @@
+.footer {
+	display: flex;
+	flex: 1;
+	padding: 6px;
+	padding-left: 10px;
+	justify-content: left;
+	align-items: center;
+	background-color: #00275e;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	font-weight: bold;
+}

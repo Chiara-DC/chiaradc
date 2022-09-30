@@ -1,0 +1,66 @@
+.gridcontainer {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #feb729;
+  width: 100%;
+}
+
+.blogfilter {
+  background-color: #a8b1b8;
+  padding: 10px 20px;
+}
+
+.griditem {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #feb729;
+  padding: 20px;
+  font-size: 14px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.griditem button {
+  margin: 5px;
+  padding: 5px;
+  background-color: #feb729;
+  border: none;
+}
+
+.griditem button:hover {
+  background-color: #1b619b;
+  animation-duration: 1000ms;
+  cursor: pointer;
+}
+
+.griditem button:active {
+  background-color: white;
+  animation-duration: 1000ms;
+}
+
+.blogfilter button {
+  margin: 5px 10px;
+  background-color: #8f9aa3;
+  padding: 5px 10px;
+  border: none;
+}
+
+.blogfilter button:hover {
+  background-color: #75848f;
+  cursor: pointer;
+}
+
+.blogfilter button:active {
+  background-color: #64707a;
+  animation-duration: 1000ms;
+  cursor: pointer;
+}
+
+.blogtags {
+  color: #00275e;
+}
+
+@media only screen and (max-width: 480px) {
+  .gridcontainer {
+    grid-template-columns: auto;
+  }
+}

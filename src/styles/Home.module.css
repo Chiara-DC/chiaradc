@@ -1,0 +1,157 @@
+.home {
+  background-color: #feb729;
+}
+
+.recents {
+  background-color: #a8b1b8;
+  padding: 15px;
+  color: black;
+  font-size: larger;
+  vertical-align: top;
+  display: inline-block;
+  width: 40%;
+  min-height: 100vh;
+  max-width: 80%;
+}
+
+.recentblog {
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.boxes {
+  display: inline-block;
+  width: 60%;
+  max-width: 80%;
+}
+
+.hellobox {
+  background-color: #feb729;
+  color: black;
+  padding: 5px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.image {
+  padding: 5px;
+  vertical-align: middle;
+  width: 30%;
+  margin: 5%;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: xx-large;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin: 5%;
+  margin-left: 0px;
+}
+
+.text {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.intro {
+  margin: 5%;
+  padding: 5px;
+}
+
+.contact {
+  background-color: #556b2f;
+  color: black;
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  width: 100%;
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contacttype {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: large;
+  display: inline-block;
+}
+
+.contact svg {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    background-color: #a8b1b8;
+  }
+
+  .boxes {
+    background-color: #feb729;
+    color: black;
+    display: inline;
+    width: 100%;
+  }
+
+  .hellobox {
+    background-color: #feb729;
+    color: black;
+    padding: 5px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .image {
+    padding: 5px;
+    vertical-align: middle;
+    width: 30%;
+    margin: 5%;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: xx-large;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin: 5%;
+    margin-left: 0px;
+  }
+
+  .text {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .recents {
+    background-color: #a8b1b8;
+    padding: 25px;
+    color: black;
+    font-size: larger;
+    width: 100%;
+    min-height: 40vh;
+  }
+
+  .recentblog {
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .contact {
+    background-color: #feb729;
+  }
+}

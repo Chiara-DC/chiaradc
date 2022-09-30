@@ -1,0 +1,67 @@
+{
+  "about": {
+    "fullname": "Anonymous Full Name",
+    "jobtitle": "Anonymous Job Title",
+    "shorttext": "Welcome to my website!",
+    "introtext": "Welcome! I am the creator of this website and here is a short summary about me.",
+    "longtext": "Welcome to my website! This is still very much a work in progress. Here is a longer description about me. :) "
+  },
+  "blogs": {
+    "blog": [
+      {
+        "title": "Hello World",
+        "subtitle": "As it wouldn't be a blog by a tech-person without the obligatory 'this is how I built it'.",
+        "date": "2022-04-01",
+        "text": "I built this in React JS",
+        "tags": ["tag1", "tag2"]
+      },
+      {
+        "title": "Hello Again!",
+        "subtitle": "Hello from CodeSandbox.io",
+        "date": "2022-04-01",
+        "text": "WSL isn't working on my computer, so...",
+        "tags": ["tag1", "tag2"]
+      },
+      {
+        "title": "Third Hello!",
+        "subtitle": "I'm starting to run out of example titles'",
+        "date": "2022-04-01",
+        "text": "All this data is false, as this sandbox is shared. :)",
+        "tags": ["tag3"]
+      }
+    ],
+    "tags": ["tag1", "tag2", "tag3", "tech"]
+  },
+  "timeline": [
+    {
+      "name": "Job Title 1",
+      "description": "Job Title 1",
+      "location": "Job Location 1",
+      "logo": "logo1",
+      "details": "Job details go here, description, etc"
+    },
+    {
+      "name": "Job Title 2",
+      "description": "Job Title 2",
+      "location": "Job Location 2",
+      "logo": "logo2"
+    },
+    {
+      "name": "Job Title 3",
+      "description": "Job Title 3",
+      "location": "Job Location 3",
+      "logo": "logo3"
+    }
+  ],
+  "skills": ["name", "copyright", "description"],
+  "contact": {
+    "linkedin": "Linkedin",
+    "email": "Email address",
+    "phone": "Phone number"
+  },
+  "site": {
+    "name": "CDC site",
+    "copyright": "CDC © 2022",
+    "description": "CDC's website"
+  }
+}
